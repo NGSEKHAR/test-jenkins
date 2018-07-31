@@ -7,7 +7,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Import;
 
 import com.nt.beans.WishGenerator;
-
+/*i just add this line for testing git status*/
 @SpringBootApplication
 @Import(value=AppConfig.class)
 public class IocBootProj1Application {
