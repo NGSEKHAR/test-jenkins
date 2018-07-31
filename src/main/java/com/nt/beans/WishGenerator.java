@@ -12,7 +12,7 @@ public class WishGenerator {
 	
 	public  String  generateWishMessage(String uname){
 		int hour=0;
-		/*get current hour of  day*/
+		//get current hour of  day
 		hour=calendar.get(Calendar.HOUR_OF_DAY);
 		if(hour<=12)
 			return "GM:"+uname;
