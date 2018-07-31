@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component("wish")
 public class WishGenerator {
 	@Autowired
-	private Calendar calendar;
+	private Calendar Show;
 	
 	public  String  generateWishMessage(String uname){
 		int hour=0;
